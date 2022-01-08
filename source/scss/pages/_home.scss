@@ -3,7 +3,16 @@ section {
 }
 
 section.home {
+	position: relative;
 
+	.description {
+		margin-top: 3rem;
+		max-width: 60vw;
+
+		@include media-breakpoint-down(md) {
+			max-width: 80vw;
+		}
+	}
 }
 
 .scroll-indicator {

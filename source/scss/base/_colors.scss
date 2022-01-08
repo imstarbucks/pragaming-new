@@ -1,0 +1,22 @@
+/* Colors */
+
+/* Define colors variables */
+$colors: (
+	black: #010101,
+	jacarta: #362c5f,
+	salmon: #fc8a68,
+	soft-peach: #fefdfd,
+	smoke: #a095af,
+	copper-rust: #964b48
+);
+
+/* Define color for fonts and background */
+@each $name, $color in colors {
+	.color-#{$name} {
+		color: #{color};
+	}
+
+	.bg-#{$name} {
+		background-color: #{$color};
+	}
+}

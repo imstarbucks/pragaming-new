@@ -4,6 +4,12 @@
 /* Base */
 @import 'base/utils';
 @import 'base/common';
-@import 'base/colors';
 @import 'base/fonts';
+@import 'base/colors';
 @import 'base/typography';
+
+/* Components */
+@import 'components/nav';
+
+/* Pages */
+@import 'pages/home';

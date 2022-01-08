@@ -1,5 +1,8 @@
 /* Utilities */
 
+
+/* Fonts Util */
+
 /* Define Font sizes variables and value */
 /* Root value = 16px */
 $sizes: (
@@ -14,7 +17,6 @@ $sizes: (
 /* Define font sizes class name */
 @each $name, $size in $sizes {
 	.font-#{$name} {
-		font-size: #{$size};
+		font-size: $size;
 	}
 }
-

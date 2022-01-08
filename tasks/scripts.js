@@ -32,7 +32,7 @@ export default function scripts(cb) {
     }
 
     // check if watching is needed
-    if (process.argv.indexOf('dev') !== -1 || process.argv.indexOf('watcher') !== -1) webpackConfig.watch = true;
+    if (process.argv.indexOf('cry') !== -1 || process.argv.indexOf('watcher') !== -1) webpackConfig.watch = true;
     if (production) webpackConfig.devtool = false;
 
     return gulp

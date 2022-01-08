@@ -5,14 +5,19 @@
 include 'head.php';
 ?>
 
-<body>
+<body class="bg-jacarta">
+	<?php
+		include 'include/navigation.php'
+	?>
 	<main>
-		<h1>
-			Pragaming
-		</h1>
-		<p>
-			pragaming
-		</p>
+		<section class="home">
+			<h1 class="font-3xl">
+				Welcome To
+			</h1>
+			<h1>
+				Pragaming
+			</h1>
+		</section>
 	</main>
 </body>
 

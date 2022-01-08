@@ -1,0 +1,4 @@
+<svg id="mouse" xmlns="http://www.w3.org/2000/svg" width="13.386" height="22.754" viewBox="0 0 13.386 22.754">
+    <path class="mouse__border" data-name="Path 924" d="M6.693 0A6.7 6.7 0 000 6.693v9.368a6.693 6.693 0 0013.386 0V6.693A6.7 6.7 0 006.693 0zm5.328 16.061a5.328 5.328 0 01-10.655 0V6.693a5.328 5.328 0 0110.655 0zm0 0" fill="#dcc5a9"/>
+    <path class="mouse__wheel" data-name="Path 925" d="M6.693 4.527a.682.682 0 00-.683.683v3.142a.683.683 0 001.365 0V5.21a.682.682 0 00-.682-.683zm0 0" fill="#dcc5a9"/>
+</svg>

@@ -1,6 +1,14 @@
 /* Colors */
 
 /* Define colors variables */
+
+$black: #010101;
+$jacarta: #362c5f;
+$salmon: #fc8a68;
+$soft-peach: #fefdfd;
+$smoke: #a095af;
+$copper-rust: #964b48;
+
 $colors: (
 	"black": #010101,
 	"jacarta": #362c5f,
@@ -19,8 +27,4 @@ $colors: (
 	.bg-#{$name} {
 		background-color: $color;
 	}
-}
-
-@each $name, $color in colors {
-	$name: $color;
 }

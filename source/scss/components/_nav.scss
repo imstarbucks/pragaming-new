@@ -1,5 +1,6 @@
 nav.navigation {
 	// position: fixed;
+	position: absolute;
 	padding: 1rem;
 	backdrop-filter: blur(5px);
 	top: 0;
@@ -68,7 +69,7 @@ nav.navigation .hamburger.is-shown {
 		inset: 0 0 0 40vw;
 		flex-direction: column;
 		height: 100vh;
-		background-color: rgba($black, .3);
+		background-color: rgba($black, .7);
 		justify-content: center;
 		transform: translateX(100%);
 		transition: transform 200ms linear;

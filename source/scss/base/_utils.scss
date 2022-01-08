@@ -2,7 +2,6 @@
 
 
 /* Fonts Util */
-
 /* Define Font sizes variables and value */
 /* Root value = 16px */
 $sizes: (
@@ -19,4 +18,44 @@ $sizes: (
 	.font-#{$name} {
 		font-size: $size;
 	}
+}
+
+.font-header {
+	font-size: 4rem;
+
+	@include media-breakpoint-down(md) {
+		font-size: 3rem;
+	}
+}
+
+/* Posistion Absolute position */
+
+.absolute-center {
+	position: absolute;
+	inset: 0;
+	margin: auto;
+}
+
+.absolute-top {
+	position: absolute;
+	top: 0;
+	margin: auto;
+}
+
+.absolute-bottom {
+	position: absolute;
+	bottom: 0;
+	margin: auto;
+}
+
+.absolute-left {
+	position: absolute;
+	left: 0;
+	margin: auto;
+}
+
+.absolute-right {
+	position: absolute;
+	right: 0;
+	margin: auto;
 }

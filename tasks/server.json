@@ -1,5 +1,5 @@
 {
-  "proxy": false,
+  "proxy": "localhost:80/pragaming/public/index.php",
   "watch": "**/*.*",
   "options": {}
 }

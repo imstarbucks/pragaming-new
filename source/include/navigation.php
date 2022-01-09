@@ -1,6 +1,6 @@
 <nav class="navigation d-flex justify-content-between">
 	<div class="navigation-logo text-uppercase">
-		<a href="/"><h1>Pragaming</h1></a>
+		<a href="/"><h1 class="color-smoke">Pragaming</h1></a>
 	</div>
 	<div class="navigation-menu d-flex">
 		<a class="navigation-select" href="javascript:;">Home</a>

@@ -2,17 +2,17 @@ section {
 	min-height: 100vh;
 }
 
+.description {
+	margin-top: 3rem;
+	max-width: 60vw;
+
+	@include media-breakpoint-down(md) {
+		max-width: 80vw;
+	}
+}
+
 section.home {
 	position: relative;
-
-	.description {
-		margin-top: 3rem;
-		max-width: 60vw;
-
-		@include media-breakpoint-down(md) {
-			max-width: 80vw;
-		}
-	}
 }
 
 .scroll-indicator {
@@ -29,5 +29,34 @@ section.home {
 
 	p {
 		margin-top: 1%;
+	}
+}
+
+section.about-us {
+	min-height:  unset !important;
+	.logos-wrapper {
+		display: flex;
+		gap: 3rem;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 1rem 3rem;
+	}
+
+	.logo-holder {
+		width: 8vw;
+		aspect-ratio: 16/9;
+		// flex-basis: calc(80%/5);
+		flex: 1;
+		align-items: center;
+		justify-content: center;
+		background-color: $smoke;
+		border-radius: 50%;
+		padding: 1.5rem;
+
+		svg {
+			width: 100%;
+			height: auto;
+			aspect-ratio: 1;
+		}
 	}
 }
